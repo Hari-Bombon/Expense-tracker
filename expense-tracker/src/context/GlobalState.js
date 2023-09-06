@@ -16,14 +16,14 @@ export const GlobalProvider = ({ children }) => {
     // Actions
     function deleteTransaction(id) {
         dispatch({
-            type: 'DELETE_TRANSACTION', 
+            type: 'DELETE_TRANSACTION',
             payload: id
         });
     }
 
     function addTransaction(transaction) {
         dispatch({
-            type: 'ADD_TRANSACTION', 
+            type: 'ADD_TRANSACTION',
             payload: transaction
         });
     }
